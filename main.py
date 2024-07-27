@@ -3,7 +3,7 @@ import psycopg2
 import json
 import time
 
-# TODO Chage the opts according the required table 
+# TODO Change the opts according the required table 
 mydb_opts = {
     'user': 'username',
     'password': 'password',
