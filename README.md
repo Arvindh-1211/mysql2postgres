@@ -29,8 +29,12 @@ To use this script, you will need to configure the following:
 ```
 git clone https://github.com/Arvindh-1211/mysql2postgres
 ```
-2. Configure the `mydb_opts`, `pgdb_opts`, `table_name`, and `json_file_path` variables in the script.
-3. Run the script.
+2. Pip install the required packages.
+```
+pip install pymysql psycopg2
+```
+3. Configure the `mydb_opts`, `pgdb_opts`, `table_name`, and `json_file_path` variables in the script.
+4. Run the script.
 ```
 python main.py
 ```
